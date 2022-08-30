@@ -7,7 +7,7 @@ This repository is about basic things of VUE.
 
   <li>Download Live Server <a href="https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer">click here to download</a></p> </li>
 
-  <li>Clone the repository.Clone Link: https://github.com/NoorMohammadTalukder/Simple-Addtion-VUE-App.git</li>
+  <li>Clone the repository.Clone Link: https://github.com/NoorMohammadTalukder/Getting-Started-With-VUE.git</li>
 
   <li>Open the desire folder you want to run with VS code</li>
 
