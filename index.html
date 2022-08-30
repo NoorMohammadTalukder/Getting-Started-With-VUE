@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vue Basics</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Jost:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <script src="https://unpkg.com/vue@next" defer></script>
+    <script src="app.js" defer></script>
+  </head>
+  <body>
+    <header>
+      <h1>My portfolio</h1>
+    </header>
+    <section id="user-goal">
+     
+      <h2>About Me</h2>
+      <p>{{msg}}</p>
+     
+      <p>My gitHub Link <a v-bind:href="link">Click here</a> 
+      </p>
+      <p>My current Favourite Colour: {{ favColours()}}</p> 
+      <p>My current Favourite Colour: {{ favSports()}}</p> 
+      
+      <!-- <p v-html>{{favColours()}}</p> -->
+      <p v-html="favSports()"></p>
+    </section>
+  </body>
+</html>
